@@ -52,4 +52,44 @@ while (count < 11) {
     position++; 
     }
  }
+//PROBLEM SETS 
+//Print all no. btw -10 and19
 
+console.log("no. btw -10 and 19");
+var a = -10;
+while(a <= 19){
+    console.log(a);
+    a++;
+}
+// Print all even no. between 10  and 40
+console.log("even no. btw 10 and 40");
+var even = 10;
+while(even<= 40){
+    if(even % 2 == 0){
+        console.log(even);
+    }
+    even++;
+    
+}
+
+//Print all odd no. btw 300 and 333
+console.log("odd no. btw 300 and 333");
+var odd = 300;
+while(odd<= 333){
+    if(odd % 2 == 1){
+        console.log(odd);
+    }
+    odd++;
+    
+}
+//Print all no. divisible by 5 and 3 between 5 and 50
+console.log("no. divisible by 5 and 3 between 5 and 50");
+var tough = 5;
+while(tough<= 50){
+    if(tough % 3 == 0 && tough % 5 == 0){
+       // if(tough % 5 == 0){
+            console.log(tough);
+        }
+        tough++;
+    
+}
