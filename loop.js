@@ -123,3 +123,9 @@ for(var i = 0; co.length> i; i++){
      }
      c++;
 }
+// print no. divisible by 3 and 5 btw 10 and 100
+for( var i = 10; i <=100 ; i++ ){
+    if(i%3 == 0 && i%5 ==0){
+        console.log(i);
+    }
+}
