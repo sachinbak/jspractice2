@@ -1,3 +1,4 @@
+//WHILE LOOP
 //print no. till 10
 var count =1;
 while (count < 11) {
@@ -92,4 +93,33 @@ while(tough<= 50){
         }
         tough++;
     
+}
+
+//FOR LOOP
+// pront no. from 1 to 5
+for(var count = 1; count<6 ; count++) {
+    console.log(count);
+}
+
+// print multiple of 2
+for(var count=1; count <= 20 ; count++) {
+    if( count % 2== 0){
+        console.log(count);
+    }
+}
+
+// print each character of string indivisually
+var str= " SACHIN KUMAR MISHRA";
+for(var i=1; str.length > i ; i++){
+    console.log(str[i]);
+}
+// print each character off string individually with description
+var c = 0;
+var co = "SACHIN KUMAR MISHRA";
+for(var i = 0; co.length> i; i++){
+   // for(var c = 0; c<co.length ; c++ ){
+       if(c<co.length){
+               console.log("the no. "+ c +" character of the word is "+ co[i]);
+     }
+     c++;
 }
