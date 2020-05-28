@@ -62,3 +62,8 @@ function factorial(num){
     }
     return result;
 }
+// kebabtosnake replace - with _
+function hoha(str) {
+    var newStr = str.replace(/-/g , "_");
+}
+return newStr;
