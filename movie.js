@@ -5,19 +5,35 @@ var movies = [
         rating: 5
     },
     {
-        title: "naruto",
+        title: "doremon",
         hasWatched: false,
-        rating: 5
+        rating: 3
     },
     {
-        title: "naruto",
+        title: "pokemon",
         hasWatched: false,
-        rating: 5
+        rating: 4
     },
     {
-        title: "naruto",
+        title: "HXH",
         hasWatched: true,
-        rating: 5
+        rating: 4.9
     }
 ]
+
+movies;
+
+movies.forEach(function(movie){
+    var result = "you have ";
+    if(movie.hasWatched){
+        result += "watched ";
+    }
+    else{
+        result += "not seen "
+    }
+    result += "\""+ movie.title+ "\" - ";
+    result += movie.rating;
+    result += " stars";
+    console.log(result);
+})
 
